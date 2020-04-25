@@ -146,7 +146,6 @@ th {
 @media screen and (max-width: 600px)  {
 
 	#rest{
-	display: flex;
 	text-align: center;
 	flex-direction: column;
 	margin: auto;
@@ -156,14 +155,11 @@ th {
 #tables{
 	width: 80vw;
 	text-align: center;
-	margin-left: 0;
-	margin-right: 0;
 }
 
 
 table{
 	width: 80%;
-	margin: auto;
 }
 
 #essentials{
