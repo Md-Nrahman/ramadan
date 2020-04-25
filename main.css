@@ -1,0 +1,131 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url('athuluth.ttf');
+}
+
+
+@font-face {
+  font-family: mashrafe;
+  src: url('Mashrafe.ttf');
+}
+
+@font-face {
+  font-family: SabrenaTonnyMJ;
+  src: url('SabrenaTonnyMJ.ttf');
+}
+
+
+
+
+.heading{
+	text-align: center;
+	
+}
+
+.heading h2{
+	font-family: myFirstFont;
+	font-size: 40px;
+	padding-bottom: 0;
+}
+
+.heading h1{
+	font-family: mashrafe;
+	font-size: 70px;
+}
+
+#rest{
+	display: flex;
+	text-align: center;
+}
+
+
+
+#tables{
+	flex: 1;
+	margin-right: 35px;
+	font-family: SabrenaTonnyMJ;
+	width: 100vw;
+}
+
+#essentials{
+	flex: 1;
+}
+
+#tables h1, #table-1 h1{
+	font-size: 24px;
+	background: rgba(0,0.7,0.7,0.7);
+	overflow: auto;
+	padding: 10px 0;
+	text-align: center;
+}
+
+
+
+table, th, td{
+	border: 3px solid #ccc;
+	border-collapse: collapse;
+}
+
+
+table{
+	width: 100%;
+}
+
+
+
+#timing{
+	display: flex;
+}
+
+#timing div{
+	flex: 1;
+}
+
+#countdown{
+	width: 80%;
+	margin: auto;
+	font-family: SabrenaTonnyMJ;
+}
+
+.box-1 {
+	overflow: auto;
+	background: #00897B;
+	border-right: 3px solid #fff;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.box-2 {
+	overflow: auto;
+	background: #0288D1;
+	border-right: 3px solid #fff;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.box-3 {
+	overflow: auto;
+	background: #E53935;
+	border-right: 3px solid #fff;
+	border-radius: 10px;
+	text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 600px)  {
+
+	#rest{
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+}
+
+
+#tables{
+	width: 80vw;
+	text-align: center;
+	margin: auto;
+}
+}
