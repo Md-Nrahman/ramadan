@@ -127,7 +127,8 @@ table{
 #tables{
 	width: 80vw;
 	text-align: center;
-	margin: auto;
+	margin-left: 0;
+	margin-right: 0;
 	text-align: center;
 }
 
