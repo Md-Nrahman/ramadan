@@ -19,6 +19,7 @@ body{
 	margin: 0;
 	padding: 0;
 	background: url('./vintage-wallpaper.png');
+	color: white;
 }
 
 .heading{
@@ -93,7 +94,8 @@ th {
   height: 50px;
 }
 
-tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(even) {background-color: #f2f2f2;
+color: black;}
 
 
 th {
