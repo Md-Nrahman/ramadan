@@ -44,7 +44,7 @@
 	flex: 1;
 	margin-right: 35px;
 	font-family: SabrenaTonnyMJ;
-	width: 100vw;
+	width: 80vw;
 }
 
 #essentials{
@@ -69,6 +69,7 @@ table, th, td{
 
 table{
 	width: 100%;
+	margin: auto;
 }
 
 
