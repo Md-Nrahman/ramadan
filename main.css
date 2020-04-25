@@ -114,18 +114,26 @@ table{
 
 
 
-@media only screen and (max-width: 600px)  {
+@media screen and (max-width: 600px)  {
 
 	#rest{
 	display: flex;
 	text-align: center;
 	flex-direction: column;
+	margin: auto;
 }
 
 
 #tables{
 	width: 80vw;
 	text-align: center;
+	margin: auto;
+	text-align: center;
+}
+
+
+table{
+	width: 80%;
 	margin: auto;
 }
 }
