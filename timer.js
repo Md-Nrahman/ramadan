@@ -3,7 +3,7 @@
         
         var nowt = new Date().getDate();
         var today = new Date().getHours();
-      if (today >= 14 && today <= 21) {
+      if (today >= 7 && today <= 21) {
           if (nowt==25) {
             var countDownDate = new Date("Apr 25, 2020 18:28:00").getTime();
             var now = new Date().getTime();
