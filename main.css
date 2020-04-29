@@ -152,36 +152,26 @@ th {
 }
 
 
-#tables{
-	width: 80vw;
-	text-align: center;
-	margin-right: 0;
-	margin-left: 0;
-}
 
-#tables h3, #tables h2, #tables h1{
-	margin-left: 60px;
-}
-
-
-table{
-	width: 80%;
-	margin-right: 10px;
-}
 
 #essentials{
 
 	margin-top: 0;
 }
 
-#tables h1, #table-1 h1{
-	display: block;
-	font-size: 24px;
-	background: #00695C;
-	overflow: auto;
-	padding: 10px 0;
-	text-align: center;
-	color: #f4f4f4;
+.dowa{
+	width: 80%;
+	margin: auto;
+}
+
+#tables{
+	
+	margin-right: 0;
+	margin-left: 0;
+	margin: auto;
+}
+th, td {
+  padding: 5px 3px;
 }
 
 }
