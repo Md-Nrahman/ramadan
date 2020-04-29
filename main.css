@@ -140,6 +140,9 @@ th {
 	text-align: center;
 }
 
+.dowa{
+	margin-top: 100px
+}
 
 
 
@@ -162,7 +165,7 @@ th {
 
 .dowa{
 	width: 80%;
-	margin: auto;
+	margin: 0 auto;
 }
 
 #tables{
@@ -174,7 +177,7 @@ th {
 }
 th, td {
   padding: 2px 3px;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 }
