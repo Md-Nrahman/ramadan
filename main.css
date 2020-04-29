@@ -170,6 +170,7 @@ th {
 	margin-right: 0;
 	margin-left: 0;
 	margin: auto;
+	width: 100vw;
 }
 th, td {
   padding: 2px 3px;
